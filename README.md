@@ -1,4 +1,4 @@
-# todocli
+# tilcli
 
 ### do cmake
 ```bash
@@ -27,7 +27,7 @@ $ ./cmake.sh
 -- Submodule updating
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/sungjunyoung/Sources/private/todocli/build
+-- Build files have been written to: /home/sungjunyoung/Sources/private/tilcli/build
 + echo done.
 done.
 ```
@@ -36,15 +36,15 @@ done.
 ```bash
 $ cd build
 $ make
-Scanning dependencies of target todocli
-[ 50%] Building CXX object CMakeFiles/todocli.dir/src/todocli.cc.o
-[100%] Linking CXX executable bin/todocli
-[100%] Built target todocli
+Scanning dependencies of target tilcli
+[ 50%] Building CXX object CMakeFiles/tilcli.dir/src/tilcli.cc.o
+[100%] Linking CXX executable bin/tilcli
+[100%] Built target tilcli
 
 $ sudo make install
 [sudo] password for sungjunyoung: 
-[100%] Built target todocli
+[100%] Built target tilcli
 Install the project...
 -- Install configuration: ""
--- Installing: /usr/local/bin/todocli
+-- Installing: /usr/local/bin/tilcli
 ```
